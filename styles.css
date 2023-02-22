@@ -1,0 +1,43 @@
+body {
+    background-color: blanchedalmond;
+    font-family: sans-serif;
+}
+
+ a {
+    color: black;
+    text-decoration: none;
+}
+.bold {
+    font-style: ;
+}
+
+.button {
+    color: white;
+    font-size: 30px;
+    background-color: skyblue;
+    border: 0;
+    border-radius: 3px;
+}
+.container{
+    display: inline-block;
+}
+.list-style {
+    font-size: 25px;
+}
+.movies-link {
+    color: crimson;
+    font-size: large;
+}
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: 
+    typing 1s steps(20, end) forwards;
+    font-size: 55px;
+    width: 0;
+  }
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
